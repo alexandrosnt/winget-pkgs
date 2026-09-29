@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+PackageIdentifier: alexandrosnt.Reach
+PackageVersion: 0.6.8
+PackageLocale: en-US
+Publisher: alexandrosnt
+PublisherUrl: https://github.com/alexandrosnt
+PublisherSupportUrl: https://github.com/alexandrosnt/Reach/issues
+Author: Alexander Nt.
+PackageName: Reach
+PackageUrl: https://reachssh.com
+License: MIT
+LicenseUrl: https://github.com/alexandrosnt/Reach/blob/main/LICENSE
+ShortDescription: Open-source SSH client with SFTP, remote desktop, port tunneling and database tools.
+Description: |-
+  Reach is a cross-platform SSH client with a native interface: SSH terminals in tabs, an SFTP file explorer,
+  jump hosts, port forwarding, a serial console and remote desktop over RDP. Sessions and keys live in an
+  encrypted vault with optional sync. Optional DevOps tools, switched on in Settings, add a database workspace
+  for PostgreSQL, MySQL, MariaDB, SQL Server, SQLite and Redis, plus Ansible and OpenTofu.
+Moniker: reach
+Tags:
+- ssh
+- ssh-client
+- sftp
+- terminal
+- rdp
+- remote-desktop
+- database
+- sql
+- redis
+- devops
+ReleaseNotesUrl: https://github.com/alexandrosnt/Reach/releases/tag/v0.6.8
+ManifestType: defaultLocale
+ManifestVersion: 1.12.0
